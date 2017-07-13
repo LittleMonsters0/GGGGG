@@ -42,9 +42,9 @@ public class fragment_Shouye extends Fragment implements View.OnClickListener {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return super.onCreateView(inflater, container, savedInstanceState);
 
-            view=inflater.inflate(R.layout.fragment_shouye, container, false);
-
+            view = inflater.inflate(R.layout.fragment_shouye,container,false );
         initView(view);
+
         return view;
     }
     private void initView(View v) {
@@ -97,35 +97,35 @@ public class fragment_Shouye extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.zhongbu_meishi:
-                Intent intent=new Intent(fragment_Shouye.this, zhongbu_meishi.class);
+                Intent intent=new Intent(fragment_Shouye.this.getActivity(), zhongbu_meishi.class);
                 startActivity(intent);
                 break;
             case R.id.zhongbu_dianying:
-                Intent intent1=new Intent(fragment_Shouye.this, zhongbu_dianying.class);
+                Intent intent1=new Intent(fragment_Shouye.this.getActivity(), zhongbu_dianying.class);
                 startActivity(intent1);
                 break;
             case R.id.zhongbu_jiudian:
-                Intent intent2=new Intent(fragment_Shouye.this, zhongbu_jiudian.class);
+                Intent intent2=new Intent(fragment_Shouye.this.getActivity(), zhongbu_jiudian.class);
                 startActivity(intent2);
                 break;
             case R.id.zhongbu_xiuxian:
-                Intent intent3=new Intent(fragment_Shouye.this, zhongbu_xiuxian.class);
+                Intent intent3=new Intent(fragment_Shouye.this.getActivity(), zhongbu_xiuxian.class);
                 startActivity(intent3);
                 break;
             case R.id.zhongbu_waimai:
-                Intent intent4=new Intent(fragment_Shouye.this, zhongbu_waimai.class);
+                Intent intent4=new Intent(fragment_Shouye.this.getActivity(), zhongbu_waimai.class);
                 startActivity(intent4);
                 break;
             case R.id.zhongbu_piao:
-                Intent intent5=new Intent(fragment_Shouye.this, zhongbu_piao.class);
+                Intent intent5=new Intent(fragment_Shouye.this.getActivity(), zhongbu_piao.class);
                 startActivity(intent5);
                 break;
             case R.id.zhongbu_KTV:
-                Intent intent6=new Intent(fragment_Shouye.this, zhongbu_KTV.class);
+                Intent intent6=new Intent(fragment_Shouye.this.getActivity(), zhongbu_KTV.class);
                 startActivity(intent6);
                 break;
             case R.id.zhongbu_zhoubian:
-                Intent intent7=new Intent(fragment_Shouye.this, zhongbu_zhoubian.class);
+                Intent intent7=new Intent(fragment_Shouye.this.getActivity(), zhongbu_zhoubian.class);
                 startActivity(intent7);
                 break;
             case R.id.zhongbu_meifa:
