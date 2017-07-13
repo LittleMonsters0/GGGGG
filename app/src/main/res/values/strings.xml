@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="dingbu_chengshi">南宁</string>
+    <string name="dingbu_saoma">扫码</string>
+    <string name="zhongbu_meishi">美食</string>
+    <string name="zhongbu_dianying">电影</string>
+    <string name="zhongbu_jiudian">酒店</string>
+    <string name="zhongbu_xiuxian">休闲</string>
+    <string name="zhongbu_waimai">外卖</string>
+    <string name="zhongbu_piao">火车/机票船</string>
+    <string name="zhongbu_ktv">KTV</string>
+    <string name="zhongbu_zhoubian">周边游</string>
+    <string name="zhongbu_meifa">美发</string>
+    <string name="zhongbu_lvxing">旅行</string>
+    <string name="dibu_toptext">暑假嗨翻天</string>
+    <string name="dibu_twotext">暑期跟团特卖</string>
+    <string name="dibu_toptext1">好店两折起</string>
+    <string name="dibu_twotext1">外卖天天送</string>
+    <string name="dibu_toptext2">机票1折起</string>
+    <string name="dibu_twotext2">暑期任性飞</string>
+
+    <string name="home">首页</string>
+    <string name="fujin">附近</string>
+    <string name="guangyiguang">逛一逛</string>
+    <string name="dingdan">订单</string>
+    <string name="me">我的</string>
+
+
+</resources>

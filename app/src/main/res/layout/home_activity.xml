@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/red" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        style="@style/dibu_daohang">
+
+        <RadioButton
+            android:id="@+id/home"
+            style="@style/dibu_daohang_button"
+            android:text="@string/home"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/fujin"
+            style="@style/dibu_daohang_button"
+            android:text="@string/fujin"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/guangyiguang"
+            style="@style/dibu_daohang_button"
+            android:text="@string/guangyiguang"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/dingdan"
+            style="@style/dibu_daohang_button"
+            android:text="@string/dingdan"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/wode"
+            style="@style/dibu_daohang_button"
+            android:text="@string/me"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+</LinearLayout>
